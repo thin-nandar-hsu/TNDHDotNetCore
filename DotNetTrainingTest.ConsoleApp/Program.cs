@@ -11,4 +11,5 @@ aDODotNetExample.Create("title test", "author test", "content test");
 aDODotNetExample.Update(11, "title test2", "author test2", "content test2");
 aDODotNetExample.Delete(11);
 Console.ReadKey();
+//hello
 

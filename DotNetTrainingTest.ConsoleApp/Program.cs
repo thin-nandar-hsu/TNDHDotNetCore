@@ -2,6 +2,7 @@
 using DotNetTrainingTest.ConsoleApp.ADODotNetExamples;
 using DotNetTrainingTest.ConsoleApp.DapperExamples;
 using DotNetTrainingTest.ConsoleApp.EFCoreExamples;
+using DotNetTrainingTest.ConsoleApp.HttpClientExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -21,12 +22,16 @@ Console.WriteLine("Hello, World!");
 //dapperExample.Update(13, "Title", "Author", "Content");
 //dapperExample.Delete(12);
 
-EFCoreExample eFCoreExample = new EFCoreExample();
+//EFCoreExample eFCoreExample = new EFCoreExample();
 //eFCoreExample.Read();
 //eFCoreExample.Create("EF title", "EF author", "EF content");
 //eFCoreExample.Edit(14);
 //eFCoreExample.Update(14, "EF title2", "EF author2", "EF content2");
-eFCoreExample.Delete(14);
+//eFCoreExample.Delete(14);
+Console.WriteLine("Waiting For API...");
+Console.ReadKey();
+HttpClientExample clientExample = new HttpClientExample();
+await clientExample.Run();
 Console.ReadKey();
 
 

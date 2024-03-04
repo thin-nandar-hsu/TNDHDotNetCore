@@ -3,6 +3,7 @@ using DotNetTrainingTest.ConsoleApp.ADODotNetExamples;
 using DotNetTrainingTest.ConsoleApp.DapperExamples;
 using DotNetTrainingTest.ConsoleApp.EFCoreExamples;
 using DotNetTrainingTest.ConsoleApp.HttpClientExamples;
+using DotNetTrainingTest.ConsoleApp.RestClientExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -30,8 +31,10 @@ Console.WriteLine("Hello, World!");
 //eFCoreExample.Delete(14);
 Console.WriteLine("Waiting For API...");
 Console.ReadKey();
-HttpClientExample clientExample = new HttpClientExample();
-await clientExample.Run();
+//HttpClientExample clientExample = new HttpClientExample();
+//await clientExample.Run();
+RestClientExample restClientExample = new RestClientExample();
+await restClientExample.Run();
 Console.ReadKey();
 
 

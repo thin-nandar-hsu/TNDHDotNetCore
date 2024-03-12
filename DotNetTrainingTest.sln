@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingTest.ConsoleApp", "DotNetTrainingTest.ConsoleApp\DotNetTrainingTest.ConsoleApp.csproj", "{6A35D2AF-4835-4334-BECF-A1CBBB17793B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingTest.ConsoleApp", "DotNetTrainingTest.ConsoleApp\DotNetTrainingTest.ConsoleApp.csproj", "{6A35D2AF-4835-4334-BECF-A1CBBB17793B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingTest.WebApi", "DotNetTrainingTest.WebApi\DotNetTrainingTest.WebApi.csproj", "{ED34F51E-DADE-45ED-B2F6-0E3BE927C1D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingTest.BirdWebApi", "DotNetTrainingTest.BirdWebApi\DotNetTrainingTest.BirdWebApi.csproj", "{A9934A91-3C0C-47D2-A46A-BB1B2E6BB6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingTest.HWArtApi", "DotNetTrainingTest.HWArtApi\DotNetTrainingTest.HWArtApi.csproj", "{9B89BAD8-4A7A-4537-9FB3-6A00F48188D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{6A35D2AF-4835-4334-BECF-A1CBBB17793B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A35D2AF-4835-4334-BECF-A1CBBB17793B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A35D2AF-4835-4334-BECF-A1CBBB17793B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED34F51E-DADE-45ED-B2F6-0E3BE927C1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED34F51E-DADE-45ED-B2F6-0E3BE927C1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED34F51E-DADE-45ED-B2F6-0E3BE927C1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED34F51E-DADE-45ED-B2F6-0E3BE927C1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9934A91-3C0C-47D2-A46A-BB1B2E6BB6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9934A91-3C0C-47D2-A46A-BB1B2E6BB6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9934A91-3C0C-47D2-A46A-BB1B2E6BB6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9934A91-3C0C-47D2-A46A-BB1B2E6BB6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B89BAD8-4A7A-4537-9FB3-6A00F48188D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B89BAD8-4A7A-4537-9FB3-6A00F48188D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B89BAD8-4A7A-4537-9FB3-6A00F48188D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B89BAD8-4A7A-4537-9FB3-6A00F48188D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
